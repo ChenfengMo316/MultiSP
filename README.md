@@ -24,5 +24,5 @@ You'll need to install the following packages in order to run the codes.
 * R==4.3.1
 
 ## Data
-The SPOTS mouse spleen and breast cancer data were obtained from the Gene Expression Omnibus (GEO) repository (accession no. [GSE198353]()). The Visium CytAssist human lymph node data were downloaded from the Zenodo database https://zenodo.org/records/10362607. The MISAR-seq mouse brain data were available from the National Genomics Data Center via the accession number([OEP003285, www. biosino.org/node/project/detail/OEP003285]()).
+The SPOTS mouse spleen and breast cancer data were obtained from the Gene Expression Omnibus (GEO) repository (accession no. [GSE198353]([GEO Accession viewer](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198353))). The Visium CytAssist human lymph node data were downloaded from the Zenodo database https://zenodo.org/records/10362607. The MISAR-seq mouse brain data were available from the National Genomics Data Center via the accession number([OEP003285, www. biosino.org/node/project/detail/OEP003285]()).
 
