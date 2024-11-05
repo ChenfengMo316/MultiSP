@@ -5,7 +5,6 @@ This repository contains MultiSP script and two tutorial jupyter notebooks for r
 ## Installation
 
 ## Dependencies
-You'll need to install the following packages in order to run the codes.
 * python==3.8
 * torch=2.4.0
 * numpy==1.26.4
