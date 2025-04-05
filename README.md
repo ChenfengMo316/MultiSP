@@ -15,12 +15,12 @@ This package has been tested on Windows, Linux and macOS (Ventura) operating sys
 #### Dependencies
 
 * python==3.11
-* torch=2.4.0
+* torch==2.4.0
 * numpy==1.26.4
-* pandas=2.22.2
+* pandas==2.22.2
 * scanpy==1.10.2
-* episcanpy=0.4.0
-* anndata=0.10.8
+* episcanpy==0.4.0
+* anndata==0.10.8
 * rpy2==3.5.11
 * scipy==1.14.0
 * scikit-learn==1.5.1
