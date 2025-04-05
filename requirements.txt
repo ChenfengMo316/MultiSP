@@ -9,4 +9,4 @@ scipy==1.14.0
 scikit-learn==1.5.1
 tqdm==4.66.5
 matplotlib==3.9.2
-R==4.3.1
+
