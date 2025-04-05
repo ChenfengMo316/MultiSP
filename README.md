@@ -1,6 +1,4 @@
-# MultiSP deciphers tissue structure and multicellular communication from spatial multi-omics data
-
-This repository contains MultiSP script and two tutorial jupyter notebooks for reproducing the outcomes shown in the paper. 
+# MultiSP deciphers tissue structure and multicellular communication from spatial multi-omics data 
 
 ## System Requirements
 
@@ -12,9 +10,9 @@ The  MultiSP package can be run on GPU (recommend) or CPU.
 
 #### OS Requirements
 
-This package has been tested on *Windows* and *Linux* operating systems. 
+This package has been tested on Windows, Linux and macOS (Ventura) operating systems, and should work in any valid python environment. 
 
-#### Python Dependencies
+#### Dependencies
 
 * python==3.11
 * torch=2.4.0
@@ -35,7 +33,7 @@ This package has been tested on *Windows* and *Linux* operating systems.
 It's prefered to create a new environment for MultiSP
 
 ```
-conda create -n MultiSP python==3.8
+conda create -n MultiSP python==3.11
 conda activate MultiSP
 ```
 
@@ -44,6 +42,16 @@ MultiSP is available on PyPI and can be installed via
 ```
 pip install MultiSP
 ```
+
+Install all the required packages
+
+```
+pip install -r requirements.txt
+```
+
+Installation of MultiSP should take less than a minute and it may take several minutes to install the dependencies.
+
+The use of the mclust algorithm requires the rpy2 package (Python) and the mclust package (R). See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for detail.
 
 ## Tutorials
 
@@ -54,5 +62,5 @@ Two step-by-step tutorials are included in the Tutorial folder to show how to us
 - 1.Tutorial for spatial RNA-ADT data (It takes about 20 seconds to run on GeForce RTX 3090 GPU )
 - 2.Tutorial for spatial RNA-ATAC data (It takes about 2 minutes to run on GeForce RTX 3090 GPU)
 
-
+Tutorial for inferring spatially multimodal cell-cell communication is available at the Github repository of [CellChat toolkit](https://github.com/jinworks/CellChat)
 
