@@ -16,7 +16,7 @@ This package has been tested on *Windows* and *Linux* operating systems.
 
 #### Python Dependencies
 
-* python==3.8
+* python==3.11
 * torch=2.4.0
 * numpy==1.26.4
 * pandas=2.22.2
